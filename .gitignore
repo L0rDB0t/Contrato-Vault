@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.*
+
+# Hardhat build artifacts and cache
+artifacts/
+cache/
+
+# TypeChain generated files
+typechain/
+typechain-types/
+
+# Solidity coverage reports
+coverage/
+coverage.json
+
+# Hardhat Ignition local deployments
+ignition/deployments/chain-31337
+
+# VSCode and editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Go build artifacts
+*.exe
+*.out
+*.test
+
+# Go modules cache (optional, usually not needed)
+# /vendor/
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# Optional: ignore dist if you build JS/TS bundles
+dist/
